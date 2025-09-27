@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: var(--fontRegular) !important; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root {
+  --fontRegular: "Manrope Regular";
+  --color-primary: #111317;
+  --color-secondary: #2d65e7; 
+  --color-accent: #a1887f; 
+  --color-text: #fff8e1;
+  --color-bg: #2e1f1a;
+  --color-grey: hsl(210, 10%, 40%);
+}
+/* --color-primary: #3d4097; */
+
+@font-face {
+  font-family: "Manrope Regular";
+  src: url("../src/Assets/Fonts/Manrope-Regular.ttf") format("ttf");
+}
